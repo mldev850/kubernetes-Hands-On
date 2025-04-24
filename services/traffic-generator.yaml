@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+   name: traffic-generator
+   labels:
+     app: traffic-generator
+
+spec:
+   containers:
+      - image: lmacademy/traffic-generator:1.0.0
+        name: traffic-generator
+        args:
+           - '192.168.1.5/api'
+           - '0.5'
+        
