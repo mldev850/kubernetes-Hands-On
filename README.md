@@ -5,4 +5,4 @@
     
 
 ### Working with NodePort Services
-  - 
+  - kubectl get nodes -o wide 
