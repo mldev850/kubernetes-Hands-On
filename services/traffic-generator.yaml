@@ -14,3 +14,5 @@ spec:
            - '192.168.1.5/api'
            - '0.5'
         
+# pod ip or u can place clusterip as well
+# kubectl logs -f traffic-generator 
