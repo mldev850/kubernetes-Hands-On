@@ -16,3 +16,4 @@ spec:
      protocol: TCP
 
 # kubectl logs -f traffic-generator(pod)
+# kubectl delete --force -f traffic-generator.yaml
