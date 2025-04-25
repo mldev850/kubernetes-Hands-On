@@ -12,3 +12,5 @@
   - kubectl get pod -l 'tier=frontend,app=color-api' ( and condition in Labels )
   - kubectl get pod -l 'tier in (frontend)'
 
+### Selecting Objects with MatchLabels and MatchExpressions
+   - 
