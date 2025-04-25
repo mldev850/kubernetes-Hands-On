@@ -19,4 +19,6 @@
  - Nodeport service using this particular service we can able to access the application with the help of nodeip and nodeport
 
 ### External Name Service
- - 
+ - In yaml externalName must be dns like google.com. Not http://google.com
+ - kubectl exec -it traffic-generator -- sh
+ - curl <external_service_name>
