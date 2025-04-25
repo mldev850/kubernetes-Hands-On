@@ -9,3 +9,14 @@
 
  ### Working with ClusterIP services
  
+
+
+### NodePort Services
+ - kubectl get node -o wide ( Internal ip is not related to k8's cluster it is a seperate kind of VM )
+ - kubectl get pod -o wide ( To check pod runs on which node )
+ - To access use <NODE_IP>:30007
+ - u can curl <POD_IP>
+ - Nodeport service using this particular service we can able to access the application with the help of nodeip and nodeport
+
+### External Name Service
+ - 
