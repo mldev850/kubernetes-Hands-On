@@ -14,4 +14,10 @@
   - kubectl get pod -l 'tier in (frontend)'
 
 ### Selecting Objects with MatchLabels and MatchExpressions
-   - 
+   - if we use matchExpressions then
+         matchExpressions:                             matchExpressions:                     matchExpressions:                     
+               - key:                                          - key                                - key: managed
+                 operator: DOES NOT EXIST                        operator: NOTIn                      operator: Exists
+                                                                 values:
+                                                                  - canary
+
