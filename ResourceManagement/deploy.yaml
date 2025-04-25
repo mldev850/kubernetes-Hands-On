@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+   name: color-api
+spec:
+   selector:
+     matchLabels:
+          app: color-api-dep
+          environment: local
+          tier: backend
+     matchExpressions:
+          - key: managed
+            operator: Exists
+
+    template:
+       metadata:
+          app: color-api 
+          environment: local
+          teir: backend
+          managed: 'deployment'
+    spec:
+       containers:
+       - name: color-api-container
+         image: lmacademy/color-api:1.1.0
+         ports:
+         - containerPort: 
