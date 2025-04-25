@@ -6,6 +6,7 @@
  - Think of labels as tags or stickers on Kubernetes objects (Pods, Services, Deployments, etc.)
  - Selectors are used to find or target resources that have a specific set of labels.
  - Selectors are of Different Types: 1) Equality Based selectors  2) Set based Selectors
+ - It is the work of selectors to pick pods based on their labels.
 
 ### Hands-on Labels and Selectors
   - kubectl get pods -L app -L tier ( To check the labels )
