@@ -21,3 +21,14 @@
                                                                  values:
                                                                   - canary
 
+
+### Annotations
+  - Add useful information and configuration to resources.
+  - Often used by Tools or Kubernetes system itself.
+
+### Namespaces
+  - Improve Isolation for groups of resources.
+  - Initial Namespaces: default, kube-system, kube-public and kube-node-lease
+
+ ## Hands-on Creating and Managing Namespace 
+  - 
